@@ -1,6 +1,6 @@
 # Hahlolwe Morake — Virtual CV
 
-A polished, responsive personal portfolio website created as a virtual CV. It presents my professional profile, education, experience, academic projects, technical skills, achievements, volunteer work and contact details.
+A personal portfolio website created as a virtual CV. It presents my professional profile, education, experience, academic projects, technical skills, achievements, volunteer work and contact details.
 
 ## Live website
 
