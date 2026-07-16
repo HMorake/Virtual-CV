@@ -4,9 +4,7 @@ A personal portfolio website created as a virtual CV. It presents my professiona
 
 ## Live website
 
-Add the GitHub Pages link here after deployment:
-
-`https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/`
+`https://HMorake.github.io/Virtual-CV/`
 
 ## Features
 
