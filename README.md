@@ -1,4 +1,4 @@
-# Hahlolwe Morake — Virtual CV
+# Hahlolwe Morake - Virtual CV
 
 A personal portfolio website created as a virtual CV. It presents my professional profile, education, experience, academic projects, technical skills, achievements, volunteer work and contact details.
 
@@ -8,18 +8,18 @@ A personal portfolio website created as a virtual CV. It presents my professiona
 
 ## Features
 
-- Refined editorial design with a professional navy, ivory and muted-plum colour palette
-- Responsive layout for desktop, tablet and mobile devices
-- Light and dark colour themes with saved user preference
-- Accessible mobile navigation and skip link
-- Scroll-reveal animations with reduced-motion support
-- Animated portfolio statistics
-- Project filters powered by JavaScript
-- Downloadable PDF CV
+This portfolio was designed to be professional, easy to navigate and comfortable to use across different devices.
+
+- Responsive layout for desktop, tablet and mobile screens
+- Light and dark themes, with the selected preference saved
+- Smooth scroll and reveal animations
+- Project filters that make it easier to browse my work
+- Downloadable PDF version of my CV
 - Contact form that opens the visitor's email application
-- Copy-email function
-- Active navigation highlighting and back-to-top control
-- Print-friendly styling
+- Copy-email button for quick contact
+- Mobile-friendly navigation and a back-to-top button
+- Accessibility support, including reduced-motion settings and a skip link
+- Print-friendly layout
 
 ## Technologies used
 
@@ -59,3 +59,6 @@ The site is designed for current versions of Chrome, Edge, Firefox and Safari. I
 **Hahlolwe Morake**  
 Final-year BSc Information Technology student  
 Boksburg, Gauteng, South Africa
+
+- [GitHub](https://github.com/HMorake)
+- [LinkedIn](https://www.linkedin.com/in/hahlolwe-morake)
