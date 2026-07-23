@@ -4,7 +4,7 @@ A personal portfolio website created as a virtual CV. It presents my professiona
 
 ## Live website
 
-`https://HMorake.github.io/Virtual-CV/`
+[View my Virtual CV](https://HMorake.github.io/Virtual-CV/)
 
 ## Features
 
@@ -49,19 +49,6 @@ Hahlolwe_Virtual_CV/
 1. Download or clone the repository.
 2. Open `index.html` in a modern web browser.
 3. No installation or build process is required.
-
-## How to publish with GitHub Pages
-
-1. Create a new public GitHub repository.
-2. Upload all files and folders from this project.
-3. Commit the files in several meaningful stages rather than uploading everything as one final commit.
-4. Open the repository's **Settings**.
-5. Select **Pages** from the sidebar.
-6. Under **Build and deployment**, choose **Deploy from a branch**.
-7. Select the `main` branch and the `/ (root)` folder.
-8. Save the settings and wait for the GitHub Pages link to appear.
-
-Do not create fake backdated commits. Make each commit after completing the stated stage.
 
 ## Browser compatibility
 
