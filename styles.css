@@ -454,61 +454,49 @@ svg {
   text-align: right;
 }
 
-.monogram-wrap {
+.profile-photo-wrap {
   position: relative;
-  width: 222px;
-  height: 222px;
-  display: grid;
-  place-items: center;
-  margin: 18px auto 14px;
+  z-index: 2;
+  width: 238px;
+  aspect-ratio: 4 / 5;
+  margin: 18px auto 16px;
+  padding: 8px;
+  border: 1px solid color-mix(in srgb, var(--primary) 38%, var(--line));
+  border-radius: 38px 38px 38px 10px;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--surface-strong) 92%, transparent), color-mix(in srgb, var(--primary) 14%, var(--surface)));
+  box-shadow: 0 24px 55px rgba(23, 35, 56, 0.24);
 }
 
-.monogram-ring {
-  position: absolute;
-  inset: 0;
-  border: 1px solid color-mix(in srgb, var(--primary) 36%, transparent);
-  border-radius: 50%;
-}
-
-.monogram-ring::before,
-.monogram-ring::after {
+.profile-photo-wrap::before {
   content: "";
   position: absolute;
+  inset: 14px -13px -13px 14px;
+  z-index: -1;
+  border: 1px solid color-mix(in srgb, var(--primary) 34%, transparent);
+  border-radius: 34px 34px 34px 9px;
+}
+
+.profile-photo-wrap::after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: -7px;
+  right: 27px;
   border-radius: 50%;
-}
-
-.monogram-ring::before {
-  inset: 22px;
-  border: 1px solid color-mix(in srgb, var(--primary) 18%, transparent);
-}
-
-.monogram-ring::after {
-  width: 10px;
-  height: 10px;
-  top: 22px;
-  right: 37px;
   background: var(--primary);
-  box-shadow: 0 0 0 9px color-mix(in srgb, var(--primary) 10%, transparent);
+  box-shadow: 0 0 0 9px color-mix(in srgb, var(--primary) 11%, transparent);
 }
 
-.monogram {
-  width: 150px;
-  height: 150px;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--dark);
-  color: #fff;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 3.25rem;
-  letter-spacing: -0.07em;
-  box-shadow: 0 20px 50px rgba(23, 35, 56, 0.22);
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 30px 30px 30px 5px;
+  background: var(--accent-soft);
 }
 
-[data-theme="dark"] .monogram {
-  background: var(--primary);
-  color: #17111a;
-}
 
 .profile-intro {
   position: relative;
@@ -1284,15 +1272,8 @@ svg {
     font-size: 0.61rem;
   }
 
-  .monogram-wrap {
-    width: 190px;
-    height: 190px;
-  }
-
-  .monogram {
-    width: 128px;
-    height: 128px;
-    font-size: 2.8rem;
+  .profile-photo-wrap {
+    width: 205px;
   }
 
   .section {
