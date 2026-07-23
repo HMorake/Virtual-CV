@@ -40,7 +40,8 @@ Hahlolwe_Virtual_CV/
 ├── README.md
 └── assets/
     ├── favicon.svg
-    └── Hahlolwe_Morake_CV.pdf
+    ├── Hahlolwe_Morake_CV.pdf
+    └── hahlolwe-morake-profile.webp
 ```
 
 ## How to run locally
